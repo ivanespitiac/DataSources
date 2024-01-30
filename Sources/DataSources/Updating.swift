@@ -53,7 +53,7 @@ public struct UpdateContext<Element> {
   }
 }
 
-public protocol Updating : class {
+public protocol Updating : AnyObject {
 
   associatedtype Target
   associatedtype Element
